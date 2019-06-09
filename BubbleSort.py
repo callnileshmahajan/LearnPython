@@ -5,7 +5,7 @@ def swapnumbers(num1, num2):
     return num1, num2
 
 
-def bubblesort(mylist):
+def bubblesort(mylist: object) -> object:
     for i in range(0, len(mylist) - 1):
         for j in range(0, len(mylist) - i - 1):
             if mylist[j] > mylist[j + 1]:

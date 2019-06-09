@@ -14,8 +14,4 @@ for num in number:
     print(num)
 
 
-def partition(start, end, mylist):
-    pivot = 
-
-
 
